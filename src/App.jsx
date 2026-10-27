@@ -1,6 +1,9 @@
+import me from './assets/teddie.png'
+
 function App() {
   return (
     <>
+      <img src={me} alt="Teddie" className="avatar"></img>
       <h1>Trebbler's Portfolio</h1>
       <h2>Edmund Filbert Priyono</h2>
       <h3>Graduating in December 2026</h3>

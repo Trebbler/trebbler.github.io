@@ -8,6 +8,13 @@ nav {
   justify-content: center;
 }
 
+.avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 a{
   color: #E6E1DF;
   font-weight: 500;
