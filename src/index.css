@@ -13,6 +13,16 @@ nav {
   height: 160px;
   border-radius: 50%;
   object-fit: cover;
+  transition: 0.3s;
+}
+
+.avatar:active {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  transform:scale(0.7);
+  transition: 0.3s;
 }
 
 a{
