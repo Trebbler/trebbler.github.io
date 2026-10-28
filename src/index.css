@@ -1,11 +1,32 @@
-p {
-    color: blueviolet;
-}
-
 nav {
-  gap: 8px;
+  gap: 30px;
   display: flex;
   justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.hero {
+  background-image: linear-gradient(90deg, #917e748a 1px transparent 1px), linear-gradient(#917e748a 1px transparent 1px);
+  background-size:40px 40px;
+  padding-top: 64px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #917e748a;
+}
+
+.page{
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.Sections{
+  gap: 30px;
+  display: flex;  
+  padding: 10px;
+}
+
+.Sections section{
+  flex:1
 }
 
 .avatar {
@@ -41,7 +62,7 @@ a:active{
   color: #E6E1DF;
   font-weight: 500;
   transition: 0.6s;
-  transform:scale(0.5);
+  transform:scale(0.7);
 }
 
 body {
