@@ -5,7 +5,7 @@ function App() {
     <div className="page">
       <header className="hero">
         <img src={me} alt="Teddie" className="avatar"></img>
-        <h1>Trebbler / Edmund (Filbert)</h1>
+        <h1>Trebbler / Filbert</h1>
         <div>
             <p>Computer Science Student</p>
         </div>
