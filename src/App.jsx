@@ -18,24 +18,24 @@ function App() {
       <div className="Sections">
         <section>
           <h2>Coursework</h2>
-            <div className="card">
+            <a href="https://github.com/advitavelury/SAFE" className="card">
               <h3>SAFE</h3>
                 <p>Capstone Project with a team of 5.</p>
-            </div>
+            </a>
         </section>
         <section>
           <h2>Projects</h2>
-            <div className="card">
+            <a href="https://devpost.com/software/undecided-qe38z1" className="card">
               <h3>Spamurai</h3>
                 <p>Email scraper made in UniHack 2024</p>
-            </div>
+            </a>
         </section>
         <section>
           <h2>Experience</h2>
-            <div className="card">
+            <a className="card">
               <h3>Monash College PM</h3>
                 <p>Peer Mentor for Diploma of IT units</p>
-            </div>
+            </a>
         </section>
       </div>
     </div>

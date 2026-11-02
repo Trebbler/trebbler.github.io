@@ -7,11 +7,11 @@ nav {
 }
 
 .hero {
-  background-image: linear-gradient(90deg, #917e748a 1px transparent 1px), linear-gradient(#917e748a 1px transparent 1px);
+  background-image: linear-gradient(90deg, #E6E1DF 1px transparent 1px), linear-gradient(#E6E1DF 1px transparent 1px);
   background-size:40px 40px;
   padding-top: 64px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #917e748a;
+  border-bottom: 1px solid #E6E1DF;
 }
 
 .page{
@@ -52,13 +52,13 @@ a{
   transition: 0.6s;
 }
 
-a:hover{
+nav a:hover{
   color: #8B786D;
   font-weight: 500;
   transition: 0.6s;
 }
 
-a:active{
+nav a:active{
   color: #E6E1DF;
   font-weight: 500;
   transition: 0.6s;
@@ -71,6 +71,9 @@ a:active{
   flex-wrap: wrap;
   text-wrap: balance;
   border: 1px solid #64859E;
+  display:block;
+  text-decoration: none;
+  transition: background-color 0.3s
 }
 
 .card p{
@@ -83,10 +86,16 @@ a:active{
   transition: background-color 0.3s;
 }
 
+.card:active{
+  background-color: #878381;
+  transition: background-color 0.3s;
+}
+
 body {
   background-color: #283044;
   color: #E6E1DF;
   text-align: center;
   font-family: "Sometype Mono", monospace;
   font-weight: 500;
+  align-items: center;
 }
